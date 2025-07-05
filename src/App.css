@@ -1,0 +1,108 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* App.css - Fullscreen dark layout */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: white;
+  font-family: 'monospace', sans-serif;
+}
+
+/* Universal reset and smooth layout */
+* {
+  box-sizing: border-box;
+}
+
+/* General container for each page */
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #111;
+  color: white;
+}
+
+/* Header styling */
+.page-header {
+  font-family: monospace;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* Title text animation target */
+.page-title {
+  font-size: 3.5rem;
+  font-weight: lighter;
+  white-space: pre-wrap;
+  font-family: monospace;
+  line-height: 1.2;
+}
+
+/* Glowing button */
+.glow-button {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: monospace;
+  letter-spacing: 1px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.glow-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+/* Footer or action button alignment */
+.button-wrapper {
+  text-align: right;
+  margin-bottom: 100px;
+}

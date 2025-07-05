@@ -1,0 +1,148 @@
+/* body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #121212;
+  color: #ddd;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.city-form,
+.result-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+}
+
+body.dark .city-form,
+body.dark .result-container {
+  background: #1e1e1e;
+  box-shadow: 0 0 10px rgb(255 255 255 / 0.1);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+body.dark input[type="text"] {
+  border-color: #555;
+  background: #333;
+  color: #ddd;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0077ff;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #0077ff;
+  color: white;
+  transition: background 0.3s;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background: #005bb5;
+}
+
+.dark-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  color: inherit;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.info-cards {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.card {
+  flex: 1;
+  min-width: 150px;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+body.dark .card {
+  background: #2a2a2a;
+}
+
+.threat-level {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+
+.threat-level.low {
+  background: #2ecc71;
+}
+
+.threat-level.moderate {
+  background: #f1c40f;
+  color: black;
+}
+
+.threat-level.high {
+  background: #e74c3c;
+}
+
+.tips-list {
+  margin-top: 0.5rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.back-btn {
+  background: transparent;
+  border: none;
+  color: #0077ff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.cat-image {
+  max-width: 200px;
+  margin-top: 1rem;
+} */

@@ -1,0 +1,132 @@
+.city-form {
+  background-color: var(--bg);
+  color: var(--text);
+  border:1px solid var(--border);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.head{
+  color: var(--text);
+  font-weight: 100 ;
+  text-align: center;
+}
+
+
+.city-form h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.city-form input {
+  width: 100%;
+  max-width: 350px;
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  border: 1px solid;
+  border-radius: 8px;
+  transition: var(--border) 0.3s;
+  background-color: #fff;
+  
+}
+
+.city-form input {
+  background-color: var(--bg);
+  color: var(--text);
+  border-color: var(--border);
+}
+.city-form input:focus {
+  outline: none;
+  border-color: none; 
+  box-shadow: none;
+}
+
+
+.city-form button {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  padding: 0.7rem 1.8rem;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+
+
+.app-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 5rem;
+}
+
+
+button {
+  font-weight: 100;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  transition: background-color 0.3s ease;
+  padding: 0.7rem 1.8rem;
+}
+
+button.submit {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;       
+  font-size: 1rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  line-height: 1.2;
+}
+
+
+
+button.submit:hover{
+  background-color: var(--btn-hover-bg);
+  color: var(--btn-hover-text);
+}
+
+
+
+
+
+
+.spinner-img {
+  width: 200px;
+  height: 200px;
+  animation: spin 3s linear infinite;
+  margin: 12px auto;
+  display: block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+.loading-box {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.fun-fact { 
+  font-style: italic;
+  color: #888;
+  font-size: 0.95rem;
+}
